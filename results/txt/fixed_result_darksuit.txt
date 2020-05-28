@@ -1,0 +1,386 @@
+[7.3909759521484375e-06]Start of the scanning for keyword: darksuit
+[7.367134094238281e-05]Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.1 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[677.4867238998413]Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.15000000000000002 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[1391.6812319755554]Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.20000000000000004 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[1925.7232718467712]Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[2430.979658126831]Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.30000000000000004 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[2946.224765777588]Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.3500000000000001 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[3445.6076488494873]Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.40000000000000013 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[3910.5767347812653]Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 5e-08
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 5e-07
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 5e-06
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 5e-05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 0.0005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 0.005
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 0.05
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+Starting the testing for the fixed keyword matching for:
+hspike: 0.45000000000000007 hnode: 0.5
+PLS keyword: 4
+Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:
+#True Positive: 168 #False Negative: 0
+Complete....
+[4379.749232053757]End of the scanning...

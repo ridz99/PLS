@@ -1,0 +1,36 @@
+Keyword: water
+      Max Prob  Min Prob
+min     -31.44    -45.54
+max     -15.02    -27.85
+mean    -24.46    -38.66
+std       4.49      4.88
+Keyword: year
+      Max Prob  Min Prob
+min     -43.73    -47.77
+max      -0.00    -24.38
+mean    -28.11    -38.96
+std       7.98      4.34
+Keyword: dark
+      Max Prob  Min Prob
+min     -29.47    -48.07
+max      -0.00    -34.14
+mean    -16.75    -41.26
+std      12.16      4.17
+Keyword: wash
+      Max Prob  Min Prob
+min     -38.28    -49.35
+max      -0.00    -28.80
+mean    -29.04    -40.59
+std       7.53      4.66
+Keyword: suit
+      Max Prob  Min Prob
+min     -39.29    -48.05
+max      -0.00    -28.01
+mean    -25.38    -39.54
+std       8.33      3.76
+Keyword: oily
+      Max Prob  Min Prob
+min     -40.53    -52.16
+max      -0.01    -24.15
+mean    -29.88    -41.61
+std       7.27      5.49

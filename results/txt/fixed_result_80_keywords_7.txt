@@ -1,0 +1,775 @@
+[0.049569129943847656]Start of the scanning for keyword: absolute
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[233.37239480018616]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 0
+[233.40739798545837]Start of the scanning for keyword: admitted
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[469.7723822593689]Completed this keyword
+----------------------------------------------------------------
+[469.77388978004456]Start of the scanning for keyword: aligning
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[698.8070211410522]Completed this keyword
+----------------------------------------------------------------
+[698.8092048168182]Start of the scanning for keyword: anxiety
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[938.9543356895447]Completed this keyword
+----------------------------------------------------------------
+[938.955780506134]Start of the scanning for keyword: apartments
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1183.6439409255981]Completed this keyword
+----------------------------------------------------------------
+[1183.6454815864563]Start of the scanning for keyword: apparently
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1437.3880820274353]Completed this keyword
+----------------------------------------------------------------
+[1437.3897964954376]Start of the scanning for keyword: argued
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #411 Answer: (0, 28, 27, 14, 37, 34, 27, 7)
+Test #489 Answer: (0, 28, 27, 14, 37, 34, 27, 7)
+#False Positive + #True Positive: 2
+Complete....
+[1680.858864068985]Completed this keyword
+----------------------------------------------------------------
+[1680.8603467941284]Start of the scanning for keyword: bedrooms
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1919.0257487297058]Completed this keyword
+----------------------------------------------------------------
+[1919.0276110172272]Start of the scanning for keyword: brand
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #160 Answer: (5, 28, 1, 22, 27, 7)
+Test #662 Answer: (5, 28, 1, 22, 27, 7)
+#False Positive + #True Positive: 2
+Complete....
+[2151.151566505432]Completed this keyword
+----------------------------------------------------------------
+[2151.153261899948]Start of the scanning for keyword: camera
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[2400.0026998519897]Completed this keyword
+----------------------------------------------------------------
+[2400.0041284561157]Start of the scanning for keyword: characters
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[2635.4428095817566]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 10
+[2635.493656873703]Start of the scanning for keyword: cleaning
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[2874.5886912345886]Completed this keyword
+----------------------------------------------------------------
+[2874.5898339748383]Start of the scanning for keyword: climates
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[3111.8797776699066]Completed this keyword
+----------------------------------------------------------------
+[3111.8813977241516]Start of the scanning for keyword: controlled
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[3351.6887209415436]Completed this keyword
+----------------------------------------------------------------
+[3351.6899061203003]Start of the scanning for keyword: creeping
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[3595.748656272888]Completed this keyword
+----------------------------------------------------------------
+[3595.7503428459167]Start of the scanning for keyword: crossings
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[3841.309529542923]Completed this keyword
+----------------------------------------------------------------
+[3841.31156873703]Start of the scanning for keyword: crushed
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #277 Answer: (19, 28, 33, 30, 27, 31)
+#False Positive + #True Positive: 1
+Complete....
+[4084.192174911499]Completed this keyword
+----------------------------------------------------------------
+[4084.1937696933746]Start of the scanning for keyword: decaying
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[4323.617632627487]Completed this keyword
+----------------------------------------------------------------
+[4323.619310379028]Start of the scanning for keyword: demands
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[4568.770927429199]Completed this keyword
+----------------------------------------------------------------
+[4568.77225112915]Start of the scanning for keyword: depicts
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[4812.312189817429]Completed this keyword
+----------------------------------------------------------------
+[4812.313495397568]Start of the scanning for keyword: dominant
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[5058.627199411392]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 20
+[5058.635313034058]Start of the scanning for keyword: dressy
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #105 Answer: (7, 28, 10, 29, 17)
+#False Positive + #True Positive: 1
+Complete....
+[5309.9847292900085]Completed this keyword
+----------------------------------------------------------------
+[5309.986066579819]Start of the scanning for keyword: drunk
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #322 Answer: (7, 28, 33, 23, 27, 19)
+#False Positive + #True Positive: 1
+Complete....
+[5556.029376983643]Completed this keyword
+----------------------------------------------------------------
+[5556.031040668488]Start of the scanning for keyword: efficient
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[5790.964025020599]Completed this keyword
+----------------------------------------------------------------
+[5790.965589046478]Start of the scanning for keyword: episode
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[6039.66006731987]Completed this keyword
+----------------------------------------------------------------
+[6039.661783456802]Start of the scanning for keyword: everything
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[6289.914356470108]Completed this keyword
+----------------------------------------------------------------
+[6289.917337656021]Start of the scanning for keyword: excellent
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[6533.945638656616]Completed this keyword
+----------------------------------------------------------------
+[6533.947278499603]Start of the scanning for keyword: experience
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[6788.267065525055]Completed this keyword
+----------------------------------------------------------------
+[6788.268558979034]Start of the scanning for keyword: family
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #881 Answer: (13, 0, 21, 20, 17)
+#False Positive + #True Positive: 1
+Complete....
+[7045.661088943481]Completed this keyword
+----------------------------------------------------------------
+[7045.662595033646]Start of the scanning for keyword: firing
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[7283.671466588974]Completed this keyword
+----------------------------------------------------------------
+[7283.673731803894]Start of the scanning for keyword: followed
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #261 Answer: (13, 0, 20, 24, 27, 7)
+#False Positive + #True Positive: 1
+Complete....
+[7530.686387062073]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 30
+[7530.693506002426]Start of the scanning for keyword: forgiveness
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[7779.09826540947]Completed this keyword
+----------------------------------------------------------------
+[7779.1018607616425]Start of the scanning for keyword: freedom
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[8025.395604848862]Completed this keyword
+----------------------------------------------------------------
+[8025.399895429611]Start of the scanning for keyword: fulfillment
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[8266.307054042816]Completed this keyword
+----------------------------------------------------------------
+[8266.308388233185]Start of the scanning for keyword: functional
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[8511.523210525513]Completed this keyword
+----------------------------------------------------------------
+[8511.525094270706]Start of the scanning for keyword: grazing
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #128 Answer: (14, 28, 12, 38, 16, 23)
+#False Positive + #True Positive: 1
+Complete....
+[8755.950705051422]Completed this keyword
+----------------------------------------------------------------
+[8755.951904058456]Start of the scanning for keyword: henceforth
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[9000.955437660217]Completed this keyword
+----------------------------------------------------------------
+[9000.957209587097]Start of the scanning for keyword: ignored
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #787 Answer: (16, 27, 14, 22, 24, 28, 27, 7)
+#False Positive + #True Positive: 1
+Complete....
+[9249.195226430893]Completed this keyword
+----------------------------------------------------------------
+[9249.196778297424]Start of the scanning for keyword: illnesses
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[9496.932282924652]Completed this keyword
+----------------------------------------------------------------
+[9496.93351984024]Start of the scanning for keyword: imitate
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[9742.51196217537]Completed this keyword
+----------------------------------------------------------------
+[9742.513511419296]Start of the scanning for keyword: increasing
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #853 Answer: (16, 22, 27, 19, 28, 17, 29, 16, 23)
+fixed_res = open("results/pickle/all_probs_80_keywords_2.pkl", "wb")
+        pickle.dump(results_fixed_keyword, fixed_res)#False Positive + #True Positive: 1
+Complete....
+[10009.295946598053]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 40
+[10009.310783863068]Start of the scanning for keyword: inevitable
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[10610.42218875885]Completed this keyword
+----------------------------------------------------------------
+[10610.425246238708]Start of the scanning for keyword: introduced
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[11208.09585571289]Completed this keyword
+----------------------------------------------------------------
+[11208.09880566597]Start of the scanning for keyword: january
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #201 Answer: (18, 0, 22, 37, 34, 10, 28, 17)
+#False Positive + #True Positive: 1
+Complete....
+[11804.661110639572]Completed this keyword
+----------------------------------------------------------------
+[11804.663790941238]Start of the scanning for keyword: materials
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[12408.56730055809]Completed this keyword
+----------------------------------------------------------------
+[12408.570118188858]Start of the scanning for keyword: millionaries
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[13008.52193236351]Completed this keyword
+----------------------------------------------------------------
+[13008.52536892891]Start of the scanning for keyword: mutineer
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[13607.800524950027]Completed this keyword
+----------------------------------------------------------------
+[13607.80328989029]Start of the scanning for keyword: needed
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[14206.118539571762]Completed this keyword
+----------------------------------------------------------------
+[14206.121595859528]Start of the scanning for keyword: obvious
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[14804.002597093582]Completed this keyword
+----------------------------------------------------------------
+[14804.005599737167]Start of the scanning for keyword: package
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[15402.745537519455]Completed this keyword
+----------------------------------------------------------------
+[15402.748288154602]Start of the scanning for keyword: paramagnetic
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[16004.34346985817]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 50
+[16004.35939359665]Start of the scanning for keyword: patiently
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[16613.402771949768]Completed this keyword
+----------------------------------------------------------------
+[16613.4055724144]Start of the scanning for keyword: pleasant
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[17217.335597276688]Completed this keyword
+----------------------------------------------------------------
+[17217.338398694992]Start of the scanning for keyword: possessed
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[17822.290957450867]Completed this keyword
+----------------------------------------------------------------
+[17822.294149637222]Start of the scanning for keyword: pressure
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[18432.284594535828]Completed this keyword
+----------------------------------------------------------------
+[18432.287516593933]Start of the scanning for keyword: radiation
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[19040.660897493362]Completed this keyword
+----------------------------------------------------------------
+[19040.663721561432]Start of the scanning for keyword: recriminations
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[19649.140475273132]Completed this keyword
+----------------------------------------------------------------
+[19649.14304804802]Start of the scanning for keyword: redecorating
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[20259.180166721344]Completed this keyword
+----------------------------------------------------------------
+[20259.18325304985]Start of the scanning for keyword: rejected
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[20868.44695353508]Completed this keyword
+----------------------------------------------------------------
+[20868.450375318527]Start of the scanning for keyword: secularist
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[21479.977792024612]Completed this keyword
+----------------------------------------------------------------
+[21479.980364084244]Start of the scanning for keyword: shampooed
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #933 Answer: (30, 0, 21, 27, 26, 34, 27, 7)
+#False Positive + #True Positive: 1
+Complete....
+[22102.66993713379]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 60
+[22102.68234729767]Start of the scanning for keyword: solid
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #214 Answer: (29, 0, 20, 16, 27, 7)
+Test #281 Answer: (29, 0, 20, 16, 27, 7)
+Test #483 Answer: (29, 0, 20, 16, 27, 7)
+Test #1085 Answer: (29, 0, 20, 16, 27, 7)
+Test #1301 Answer: (29, 0, 20, 16, 27, 7)
+#False Positive + #True Positive: 5
+Complete....
+[22682.47742486]Completed this keyword
+----------------------------------------------------------------
+[22682.47847509384]Start of the scanning for keyword: spilled
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #202 Answer: (29, 27, 26, 16, 20, 27, 7)
+Test #263 Answer: (29, 27, 26, 16, 20, 27, 7)
+Test #353 Answer: (29, 27, 26, 16, 20, 27, 7)
+#False Positive + #True Positive: 3
+Complete....
+[23268.21989297867]Completed this keyword
+----------------------------------------------------------------
+[23268.220970392227]Start of the scanning for keyword: spreader
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[23854.99588918686]Completed this keyword
+----------------------------------------------------------------
+[23854.99701309204]Start of the scanning for keyword: story
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[24442.08776974678]Completed this keyword
+----------------------------------------------------------------
+[24442.089399576187]Start of the scanning for keyword: strained
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[25028.461716890335]Completed this keyword
+----------------------------------------------------------------
+[25028.465496778488]Start of the scanning for keyword: streamlined
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[25622.462064504623]Completed this keyword
+----------------------------------------------------------------
+[25622.464909791946]Start of the scanning for keyword: street
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #84 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #116 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #135 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #197 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #233 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #240 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #407 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #442 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #495 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #548 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #569 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #609 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #700 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #805 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #1019 Answer: (29, 27, 31, 28, 17, 27, 31)
+Test #1047 Answer: (29, 27, 31, 28, 17, 27, 31)
+#False Positive + #True Positive: 16
+Complete....
+[26221.78442454338]Completed this keyword
+----------------------------------------------------------------
+[26221.786634206772]Start of the scanning for keyword: stripped
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[26807.00256252289]Completed this keyword
+----------------------------------------------------------------
+[26807.00560426712]Start of the scanning for keyword: stupid
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[27399.83914899826]Completed this keyword
+----------------------------------------------------------------
+[27399.84232568741]Start of the scanning for keyword: superb
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[27989.894911050797]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 70
+[0.04158973693847656]Start of the scanning for keyword: surface
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[246.26519918441772]Completed this keyword
+----------------------------------------------------------------
+[246.26702666282654]Start of the scanning for keyword: swimming
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #59 Answer: (29, 36, 16, 21, 16, 23)
+#False Positive + #True Positive: 1
+Complete....
+[495.34974217414856]Completed this keyword
+----------------------------------------------------------------
+[495.35126852989197]Start of the scanning for keyword: sympathetically
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[749.1385142803192]Completed this keyword
+----------------------------------------------------------------
+[749.1397306919098]Start of the scanning for keyword: unlined
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1018.3925578594208]Completed this keyword
+----------------------------------------------------------------
+[1018.3936533927917]Start of the scanning for keyword: unenthusiastic
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1263.3346202373505]Completed this keyword
+----------------------------------------------------------------
+[1263.336100101471]Start of the scanning for keyword: urethane
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1506.9762198925018]Completed this keyword
+----------------------------------------------------------------
+[1506.9838354587555]Start of the scanning for keyword: usual
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[1737.7603991031647]Completed this keyword
+----------------------------------------------------------------
+[1737.762149810791]Start of the scanning for keyword: walking
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+Test #239 Answer: (36, 0, 27, 19, 16, 23)
+Test #258 Answer: (36, 0, 27, 19, 16, 23)
+Test #412 Answer: (36, 0, 27, 19, 16, 23)
+Test #464 Answer: (36, 0, 27, 19, 16, 23)
+Test #530 Answer: (36, 0, 27, 19, 16, 23)
+Test #560 Answer: (36, 0, 27, 19, 16, 23)
+#False Positive + #True Positive: 6
+Complete....
+[1964.015774011612]Completed this keyword
+----------------------------------------------------------------
+[1964.0188307762146]Start of the scanning for keyword: weekday
+Starting the testing for the fixed keyword matching for:
+hspike: 0.25000000000000006 hnode: 5e-07
+PLS keyword: 1
+Total Hits among 1344 sentences
+#False Positive + #True Positive: 0
+Complete....
+[2193.4889392852783]Completed this keyword
+----------------------------------------------------------------
+[2193.4911394119263]End of the scanning...

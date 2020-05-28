@@ -1,0 +1,954 @@
+[0.0005202293395996094]Start of the scanning for keyword: absolute
+Test #419
+Number of hits: 1
+[65.90949010848999]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 0
+[65.91205525398254]Start of the scanning for keyword: admitted
+Test #15
+Test #57
+Test #894
+Test #1050
+Number of hits: 4
+[132.0555431842804]Completed this keyword
+----------------------------------------------------------------
+[132.05711221694946]Start of the scanning for keyword: aligning
+Test #334
+Number of hits: 1
+[197.7478187084198]Completed this keyword
+----------------------------------------------------------------
+[197.74916672706604]Start of the scanning for keyword: anxiety
+Number of hits: 0
+[263.889696598053]Completed this keyword
+----------------------------------------------------------------
+[263.8911485671997]Start of the scanning for keyword: apartments
+Test #148
+Number of hits: 1
+[331.2978618144989]Completed this keyword
+----------------------------------------------------------------
+[331.29922580718994]Start of the scanning for keyword: apparently
+Number of hits: 0
+[396.3517782688141]Completed this keyword
+----------------------------------------------------------------
+[396.3540961742401]Start of the scanning for keyword: argued
+Test #411
+Test #489
+Number of hits: 2
+[464.4301805496216]Completed this keyword
+----------------------------------------------------------------
+[464.43173813819885]Start of the scanning for keyword: bedrooms
+Number of hits: 0
+[531.3755955696106]Completed this keyword
+----------------------------------------------------------------
+[531.3771507740021]Start of the scanning for keyword: brand
+Test #160
+Test #662
+Number of hits: 2
+[598.6093063354492]Completed this keyword
+----------------------------------------------------------------
+[598.6108100414276]Start of the scanning for keyword: camera
+Test #121
+Number of hits: 1
+[667.3384053707123]Completed this keyword
+----------------------------------------------------------------
+[667.3666160106659]Start of the scanning for keyword: characters
+Test #156
+Number of hits: 1
+[734.6065773963928]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 10
+[734.6143157482147]Start of the scanning for keyword: cleaning
+Test #336
+Number of hits: 1
+[801.3756575584412]Completed this keyword
+----------------------------------------------------------------
+[801.3778924942017]Start of the scanning for keyword: climates
+Number of hits: 0
+[991.8036062717438]Completed this keyword
+----------------------------------------------------------------
+[991.8063325881958]Start of the scanning for keyword: controlled
+Test #369
+Test #526
+Test #636
+Test #717
+Test #820
+Test #889
+Test #929
+Number of hits: 7
+[1186.6229691505432]Completed this keyword
+----------------------------------------------------------------
+[1186.6252782344818]Start of the scanning for keyword: creeping
+Number of hits: 0
+[1376.2807500362396]Completed this keyword
+----------------------------------------------------------------
+[1376.2827641963959]Start of the scanning for keyword: crossings
+Test #193
+Number of hits: 1
+[1568.7152938842773]Completed this keyword
+----------------------------------------------------------------
+[1568.7174353599548]Start of the scanning for keyword: crushed
+Test #277
+Test #548
+Test #885
+Number of hits: 3
+[1759.3074312210083]Completed this keyword
+----------------------------------------------------------------
+[1759.3125531673431]Start of the scanning for keyword: decaying
+Test #168
+Number of hits: 1
+[1948.842372894287]Completed this keyword
+----------------------------------------------------------------
+[1948.8448314666748]Start of the scanning for keyword: demands
+Test #164
+Number of hits: 1
+[2137.88574719429]Completed this keyword
+----------------------------------------------------------------
+[2137.888350725174]Start of the scanning for keyword: depicts
+Test #466
+Test #632
+Test #643
+Test #674
+Test #739
+Test #940
+Test #1042
+Number of hits: 7
+[2325.8391540050507]Completed this keyword
+----------------------------------------------------------------
+[2325.8416838645935]Start of the scanning for keyword: dominant
+Number of hits: 0
+[2512.5124745368958]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 20
+[2512.5268383026123]Start of the scanning for keyword: dressy
+Test #105
+Number of hits: 1
+[2713.685144662857]Completed this keyword
+----------------------------------------------------------------
+[2713.6905579566956]Start of the scanning for keyword: drunk
+Test #75
+Test #322
+Number of hits: 2
+[2924.4712665081024]Completed this keyword
+----------------------------------------------------------------
+[2924.4742953777313]Start of the scanning for keyword: efficient
+Test #1084
+Number of hits: 1
+[7524.5597314834595]Completed this keyword
+----------------------------------------------------------------
+[7524.561121463776]Start of the scanning for keyword: episode
+Test #444
+
+Number of hits: 1
+[7895.520721673965]Completed this keyword
+----------------------------------------------------------------
+[7895.523854970932]Start of the scanning for keyword: everything
+Test #181
+Number of hits: 1
+[8098.921790361404]Completed this keyword
+----------------------------------------------------------------
+[8098.9248859882355]Start of the scanning for keyword: excellent
+Test #138
+Number of hits: 1
+[8318.453268766403]Completed this keyword
+----------------------------------------------------------------
+[8318.573158025742]Start of the scanning for keyword: experience
+Number of hits: 0
+[8532.485597372055]Completed this keyword
+----------------------------------------------------------------
+[8532.488313436508]Start of the scanning for keyword: family
+Test #639
+Test #881
+Number of hits: 2
+[8758.6436855793]Completed this keyword
+----------------------------------------------------------------
+[8758.648103237152]Start of the scanning for keyword: firing
+Test #821
+Number of hits: 1
+[8970.385002851486]Completed this keyword
+----------------------------------------------------------------
+[8970.38772726059]Start of the scanning for keyword: followed
+Test #20
+Test #214
+Test #261
+Test #288
+Test #332
+Test #460
+Test #484
+Test #734
+Test #759
+Test #849
+Test #856
+Test #861
+Test #868
+Test #989
+Test #1096
+Test #1115
+Test #1150
+Test #1201
+Test #1301
+Test #1340
+Number of hits: 20
+[9182.392773866653]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 30
+[9182.446335554123]Start of the scanning for keyword: forgiveness
+Test #52
+Number of hits: 1
+[9397.786970376968]Completed this keyword
+----------------------------------------------------------------
+[9397.790387868881]Start of the scanning for keyword: freedom
+Number of hits: 0
+[9597.743296861649]Completed this keyword
+----------------------------------------------------------------
+[9597.745379924774]Start of the scanning for keyword: fulfillment
+Number of hits: 0
+[9780.065169811249]Completed this keyword
+----------------------------------------------------------------
+[9780.067574262619]Start of the scanning for keyword: functional
+Number of hits: 0
+[9965.063046216965]Completed this keyword
+----------------------------------------------------------------
+[9965.06563282013]Start of the scanning for keyword: grazing
+Test #128
+Number of hits: 1
+[10148.565498828888]Completed this keyword
+----------------------------------------------------------------
+[10148.606941699982]Start of the scanning for keyword: henceforth
+Number of hits: 0
+[10332.72383761406]Completed this keyword
+----------------------------------------------------------------
+[10332.726287126541]Start of the scanning for keyword: ignored
+Test #41
+Test #89
+Test #372
+Test #421
+Test #787
+Number of hits: 5
+[10518.788012504578]Completed this keyword
+----------------------------------------------------------------
+[10518.790880203247]Start of the scanning for keyword: illnesses
+Test #1085
+Number of hits: 1
+[10703.337924480438]Completed this keyword
+----------------------------------------------------------------
+[10703.340167999268]Start of the scanning for keyword: imitate
+Test #35
+Test #43
+Test #110
+Number of hits: 3
+[10889.318655967712]Completed this keyword
+----------------------------------------------------------------
+[10889.321192741394]Start of the scanning for keyword: increasing
+Test #853
+Number of hits: 1
+[11095.21827673912]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 40
+[11095.249304771423]Start of the scanning for keyword: inevitable
+Test #642
+Number of hits: 1
+[11321.930172204971]Completed this keyword
+----------------------------------------------------------------
+[11321.932410001755]Start of the scanning for keyword: introduced
+Number of hits: 0
+[11537.50091290474]Completed this keyword
+----------------------------------------------------------------
+[11537.519617557526]Start of the scanning for keyword: january
+Test #201
+Test #549
+Number of hits: 2
+[11760.011775493622]Completed this keyword
+----------------------------------------------------------------
+[11760.014763832092]Start of the scanning for keyword: materials
+Number of hits: 0
+[11975.39748430252]Completed this keyword
+----------------------------------------------------------------
+[11975.400049686432]Start of the scanning for keyword: millionaries
+Number of hits: 0
+[12195.57393193245]Completed this keyword
+----------------------------------------------------------------
+[12195.577024459839]Start of the scanning for keyword: mutineer
+Test #152
+Number of hits: 1
+[12440.804569721222]Completed this keyword
+----------------------------------------------------------------
+[12440.809633255005]Start of the scanning for keyword: needed
+Test #4
+Test #25
+Test #49
+Test #55
+Test #82
+Test #178
+Test #199
+Test #206
+Test #216
+Test #217
+Test #303
+Test #307
+Test #349
+Test #355
+Test #359
+Test #380
+Test #390
+Test #401
+Test #417
+Test #442
+Test #475
+Test #551
+Test #629
+Test #694
+Test #695
+Test #793
+Test #894
+Test #912
+Test #958
+Test #960
+Test #1021
+Test #1115
+Test #1149
+Test #1184
+Number of hits: 34
+[12656.596408843994]Completed this keyword
+----------------------------------------------------------------
+[12656.598659038544]Start of the scanning for keyword: obvious
+Number of hits: 0
+[12872.05589056015]Completed this keyword
+----------------------------------------------------------------
+[12872.120992422104]Start of the scanning for keyword: package
+Test #855
+Number of hits: 1
+[13099.759291410446]Completed this keyword
+----------------------------------------------------------------
+[13099.762134075165]Start of the scanning for keyword: paramagnetic
+Test #15
+Number of hits: 1
+[13323.116753339767]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 50
+[13323.140764474869]Start of the scanning for keyword: patiently
+Number of hits: 0
+[13525.90703177452]Completed this keyword
+----------------------------------------------------------------
+[13525.909629106522]Start of the scanning for keyword: pleasant
+Test #45
+Number of hits: 1
+[13739.922747612]Completed this keyword
+----------------------------------------------------------------
+[13739.925636529922]Start of the scanning for keyword: possessed
+Number of hits: 0
+[13961.805628299713]Completed this keyword
+----------------------------------------------------------------
+[13961.808902025223]Start of the scanning for keyword: pressure
+Test #169
+Test #194
+Test #212
+Test #230
+Test #231
+Test #266
+Test #317
+Test #381
+Test #468
+Test #515
+Test #563
+Test #625
+Test #1328
+Number of hits: 13
+[14188.755781412125]Completed this keyword
+----------------------------------------------------------------
+[14188.758880376816]Start of the scanning for keyword: radiation
+Test #141
+Number of hits: 1
+[14385.131978750229]Completed this keyword
+----------------------------------------------------------------
+[14385.134123325348]Start of the scanning for keyword: recriminations
+Number of hits: 0
+[14573.161086082458]Completed this keyword
+----------------------------------------------------------------
+[14573.163596868515]Start of the scanning for keyword: redecorating
+Number of hits: 0
+[14812.803525924683]Completed this keyword
+----------------------------------------------------------------
+[14812.806689023972]Start of the scanning for keyword: rejected
+Number of hits: 0
+[15020.702551364899]Completed this keyword
+----------------------------------------------------------------
+[15020.7055413723]Start of the scanning for keyword: secularist
+Number of hits: 0
+[15235.651408672333]Completed this keyword
+----------------------------------------------------------------
+[15235.655450820923]Start of the scanning for keyword: shampooed
+Test #227
+Test #624
+Test #774
+Test #933
+Number of hits: 4
+[15456.663754463196]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 60
+[15456.712807893753]Start of the scanning for keyword: solid
+Test #214
+Test #281
+Test #483
+Test #1085
+Test #1301
+Number of hits: 5
+[15672.94502568245]Completed this keyword
+----------------------------------------------------------------
+[15672.94881272316]Start of the scanning for keyword: spilled
+Test #191
+Test #202
+Test #244
+Test #263
+Test #294
+Test #315
+Test #351
+Test #353
+Test #481
+Test #484
+Test #556
+Test #673
+Test #755
+Test #1050
+Number of hits: 14
+[15915.330299854279]Completed this keyword
+----------------------------------------------------------------
+[15915.332609891891]Start of the scanning for keyword: spreader
+Test #49
+Number of hits: 1
+[16138.746926784515]Completed this keyword
+----------------------------------------------------------------
+[16138.74926519394]Start of the scanning for keyword: story
+Test #35
+Test #110
+Test #145
+Test #158
+Test #170
+Test #259
+Test #285
+Test #305
+Test #355
+Test #366
+Test #367
+Test #370
+Test #391
+Test #415
+Test #437
+Test #442
+Test #517
+Test #587
+Test #598
+Test #1115
+Test #1141
+Number of hits: 21
+[16356.9622900486]Completed this keyword
+----------------------------------------------------------------
+[16356.966002464294]Start of the scanning for keyword: strained
+Test #116
+Test #135
+Number of hits: 2
+[16639.843344449997]Completed this keyword
+----------------------------------------------------------------
+[16639.846119880676]Start of the scanning for keyword: streamlined
+Number of hits: 0
+[16871.200446605682]Completed this keyword
+----------------------------------------------------------------
+[16871.20719766617]Start of the scanning for keyword: street
+Test #21
+Test #34
+Test #72
+Test #84
+Test #95
+Test #116
+Test #123
+Test #132
+Test #135
+Test #184
+Test #196
+Test #197
+Test #206
+Test #233
+Test #240
+Test #300
+Test #320
+Test #338
+Test #355
+Test #358
+Test #391
+Test #407
+Test #419
+Test #442
+Test #473
+Test #484
+Test #494
+Test #495
+Test #497
+Test #504
+Test #527
+Test #548
+Test #569
+Test #609
+Test #626
+Test #700
+Test #764
+Test #805
+Test #860
+Test #1012
+Test #1019
+Test #1047
+Test #1115
+Number of hits: 43
+[17096.798029899597]Completed this keyword
+----------------------------------------------------------------
+[17096.803074598312]Start of the scanning for keyword: stripped
+Test #0
+Test #1
+Test #8
+Test #10
+Test #11
+Test #12
+Test #14
+Test #19
+Test #23
+Test #25
+Test #27
+Test #29
+Test #31
+Test #33
+Test #37
+Test #38
+Test #39
+Test #41
+Test #43
+Test #46
+Test #48
+Test #52
+Test #53
+Test #54
+Test #55
+Test #57
+Test #59
+Test #65
+Test #68
+Test #69
+Test #73
+Test #74
+Test #75
+Test #76
+Test #78
+Test #84
+Test #85
+Test #90
+Test #96
+Test #100
+Test #103
+Test #108
+Test #110
+Test #116
+Test #117
+Test #118
+Test #123
+Test #126
+Test #127
+Test #129
+Test #135
+Test #137
+Test #138
+Test #144
+Test #145
+Test #149
+Test #150
+Test #156
+Test #162
+Test #164
+Test #167
+Test #168
+Test #170
+Test #172
+Test #174
+Test #176
+Test #185
+Test #186
+Test #187
+Test #190
+Test #193
+Test #194
+Test #195
+Test #201
+Test #202
+Test #206
+Test #208
+Test #210
+Test #211
+Test #212
+Test #214
+Test #216
+Test #217
+Test #226
+Test #227
+Test #228
+Test #229
+Test #233
+Test #234
+Test #235
+Test #239
+Test #243
+Test #244
+Test #246
+Test #249
+Test #253
+Test #255
+Test #264
+Test #269
+Test #270
+Test #279
+Test #281
+Test #283
+Test #285
+Test #287
+Test #290
+Test #295
+Test #297
+Test #305
+Test #307
+Test #309
+Test #315
+Test #317
+Test #318
+Test #320
+Test #322
+Test #326
+Test #328
+Test #329
+Test #330
+Test #331
+Test #332
+Test #338
+Test #342
+Test #347
+Test #348
+Test #350
+Test #351
+Test #352
+Test #355
+Test #358
+Test #363
+Test #365
+Test #366
+Test #367
+Test #369
+Test #371
+Test #374
+Test #380
+Test #383
+Test #386
+Test #388
+Test #391
+Test #395
+Test #400
+Test #407
+Test #410
+Test #411
+Test #413
+Test #416
+Test #417
+Test #419
+Test #424
+Test #425
+Test #428
+Test #429
+Test #430
+Test #436
+Test #439
+Test #444
+Test #448
+Test #456
+Test #459
+Test #466
+Test #473
+Test #478
+Test #480
+Test #484
+Test #485
+Test #487
+Test #490
+Test #492
+Test #493
+Test #497
+Test #498
+Test #501
+Test #504
+Test #506
+Test #511
+Test #514
+Test #517
+Test #526
+Test #527
+Test #533
+Test #539
+Test #542
+Test #547
+Test #548
+Test #549
+Test #562
+Test #565
+Test #567
+Test #568
+Test #569
+Test #572
+Test #575
+Test #582
+Test #583
+Test #587
+Test #595
+Test #596
+Test #598
+Test #600
+Test #601
+Test #605
+Test #608
+Test #609
+Test #615
+Test #619
+Test #625
+Test #626
+Test #629
+Test #636
+Test #637
+Test #639
+Test #640
+Test #642
+Test #647
+Test #652
+Test #653
+Test #654
+Test #662
+Test #663
+Test #664
+Test #678
+Test #679
+Test #685
+Test #695
+Test #699
+Test #702
+Test #704
+Test #705
+Test #715
+Test #716
+Test #722
+Test #723
+Test #725
+Test #733
+Test #748
+Test #749
+Test #750
+Test #751
+Test #757
+Test #760
+Test #772
+Test #773
+Test #776
+Test #778
+Test #782
+Test #783
+Test #785
+Test #787
+Test #788
+Test #789
+Test #795
+Test #797
+Test #800
+Test #802
+Test #815
+Test #820
+Test #822
+Test #823
+Test #826
+Test #838
+Test #842
+Test #845
+Test #847
+Test #849
+Test #851
+Test #852
+Test #854
+Test #856
+Test #861
+Test #863
+Test #864
+Test #867
+Test #869
+Test #870
+Test #877
+Test #881
+Test #882
+Test #889
+Test #900
+Test #907
+Test #909
+Test #911
+Test #914
+Test #915
+Test #920
+Test #923
+Test #927
+Test #930
+Test #940
+Test #941
+Test #946
+Test #951
+Test #953
+Test #958
+Test #961
+Test #976
+Test #982
+Test #986
+Test #988
+Test #989
+Test #994
+Test #1010
+Test #1011
+Test #1016
+Test #1024
+Test #1030
+Test #1041
+Test #1051
+Test #1062
+Test #1063
+Test #1071
+Test #1072
+Test #1075
+Test #1085
+Test #1097
+Test #1115
+Test #1129
+Test #1143
+Test #1146
+Test #1148
+Test #1162
+Test #1173
+Test #1180
+Test #1184
+Test #1186
+Test #1188
+Test #1201
+Test #1207
+Test #1212
+Test #1233
+Test #1235
+Test #1243
+Test #1248
+Test #1256
+Test #1259
+Test #1260
+Test #1265
+Test #1274
+Test #1278
+Test #1281
+Test #1312
+Test #1313
+Test #1316
+Test #1324
+Test #1327
+Test #1331
+Test #1340
+Number of hits: 351
+[17326.91335248947]Completed this keyword
+----------------------------------------------------------------
+[17326.916902303696]Start of the scanning for keyword: stupid
+Test #20
+Test #320
+Test #484
+Test #606
+Test #888
+Number of hits: 5
+[17541.587744235992]Completed this keyword
+----------------------------------------------------------------
+[17541.590025663376]Start of the scanning for keyword: superb
+Test #96
+Test #215
+Test #263
+Test #423
+Test #615
+Test #633
+Test #698
+Test #699
+Test #752
+Test #755
+Test #847
+Test #880
+Test #920
+Test #939
+Test #1026
+Test #1085
+Test #1335
+Number of hits: 17
+[17761.388732910156]Completed this keyword
+----------------------------------------------------------------
+Dumping for count: 70
+[17761.396609067917]Start of the scanning for keyword: surface
+Test #102
+Test #207
+Test #264
+Test #270
+Test #312
+Test #629
+Number of hits: 6
+[17977.000962734222]Completed this keyword
+----------------------------------------------------------------
+[17977.003227472305]Start of the scanning for keyword: swimming
+Test #59
+Number of hits: 1
+[18191.106033563614]Completed this keyword
+----------------------------------------------------------------
+[18191.108585596085]Start of the scanning for keyword: sympathetically
+Number of hits: 0
+[18411.877338409424]Completed this keyword
+----------------------------------------------------------------
+[18411.879373311996]Start of the scanning for keyword: unlined
+Test #277
+Number of hits: 1
+[18643.706260681152]Completed this keyword
+----------------------------------------------------------------
+[18643.739825487137]Start of the scanning for keyword: unenthusiastic
+Test #247
+
+Number of hits: 1
+[59516.81725168228]Completed this keyword
+----------------------------------------------------------------
+[59516.81873679161]Start of the scanning for keyword: urethane
+Test #484
+Number of hits: 1
+[59586.81219768524]Completed this keyword
+----------------------------------------------------------------
+[59586.815633535385]Start of the scanning for keyword: usual
+Test #668
+Test #712
+Test #1278
+Number of hits: 3
+[59652.51174783707]Completed this keyword
+----------------------------------------------------------------
+[59652.51374554634]Start of the scanning for keyword: walking
+Test #239
+Test #258
+Test #412
+Test #464
+Test #530
+Test #560
+Number of hits: 6
+[59719.38454127312]Completed this keyword
+----------------------------------------------------------------
+[59719.38626456261]Start of the scanning for keyword: weekday
+Test #111
+Test #215
+Test #704
+Test #723
+Test #822
+Test #838
+Test #854
+Test #867
+Test #923
+Test #994
+Number of hits: 10
+[59788.63884782791]Completed this keyword
+----------------------------------------------------------------
+[59788.64024090767]End of the scanning...
