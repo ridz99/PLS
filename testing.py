@@ -94,7 +94,7 @@ Output:	list of all possible matches along with start and end time frame, and ot
 
 '''
 
-def test_one_utterance(LSTM_output, IDS_prob, hspike, hnode, PLS_Arg, Cost_Arg, V):
+def test_one_utterance(LSTM_output, IDS_prob, hspike, hnode, keyword, PLS_Arg, Cost_Arg, V):
 
 	LSTM_output = LSTM_output.T
 
@@ -112,11 +112,11 @@ def test_one_utterance(LSTM_output, IDS_prob, hspike, hnode, PLS_Arg, Cost_Arg, 
 	num_hits = 0
 
 	if PLS_Arg == 1:
-		recorded_seq = Fixed_PLS_single_pronunciation(phone_lattice, time_frames, LSTM_prob, keyword)
+		recorded_seq = Fixed_PLS_single_pronunciation(phone_lattice, time_frames, LSTM_prob, keyword[0])
 	elif PLS_Arg == 2:
 		recorded_seq = Fixed_PLS_multi_pronunciation(phone_lattice, time_frames, LSTM_prob, keyword)
 	else:
-		recorded_seq = Modified_Dynamic_PLS(LSTM_prob, phone_lattice, keyword, time_frames, ids_prob, cost_Arg, V)
+		recorded_seq = Modified_Dynamic_PLS(LSTM_prob, phone_lattice, keyword[0], time_frames, ids_prob, cost_Arg, V)
 
 	if bool(recorded_seq):
 		num_tp += 1
@@ -125,7 +125,7 @@ def test_one_utterance(LSTM_output, IDS_prob, hspike, hnode, PLS_Arg, Cost_Arg, 
 	return ans
 
 
-def test_multiple_utterance(LSTM_output, IDS_prob, hspike, hnode, PLS_Arg, Cost_Arg, V):
+def test_multiple_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V):
 
 	n_test = len(LSTM_output)
 
@@ -133,7 +133,7 @@ def test_multiple_utterance(LSTM_output, IDS_prob, hspike, hnode, PLS_Arg, Cost_
 
 	for i in range(n_test):
 
-		ans = test_one_utterance(LSTM_output[i].T, IDS_prob, hspike, hnode, PLS_Arg, Cost_Arg, V)
+		ans = test_one_utterance(LSTM_output[i].T, IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V)
 
 		answers.append(ans)
 
