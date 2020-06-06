@@ -1,9 +1,19 @@
+# DONE
+
 import numpy as np
-from utils import *
+from PLS.utils import *
 
 '''
 Edit distance required to convert string_1 into string_2
+
+Input:  IDS_prob (insert, delete, substitute probabilities), 
+        String 1 (Detected sequence),
+        String 2 (Target sequence)
+
+Output: dp[m][n] (Cost of converting String 1 to String 2 using IDS computation)
+
 '''
+
 def edit_distance(ids_prob, string_1, string_2):
 
     m, n = len(string_1), len(string_2)
@@ -11,9 +21,9 @@ def edit_distance(ids_prob, string_1, string_2):
     insert_prob, delete_prob, substitute_prob = ids_prob[0], ids_prob[1], ids_prob[2]
 
     insert_prob = np.array(logarithm_mat(insert_prob))
-    # print(insert_prob.shape)
+    
     delete_prob = np.array(logarithm_mat(delete_prob))
-    # print(delete_prob.shape)
+    
     substitute_prob = np.array(logarithm_mat(substitute_prob))
 
     dp = np.zeros((m + 1, n + 1))
@@ -44,8 +54,15 @@ def edit_distance(ids_prob, string_1, string_2):
 Following edit distance is the optimized one which uses O(n) time complexity using
 the locality rule but this modification uses extra of O(n) space complexity in the 
 PLS algorithm, where n is the length of the keyword.
-'''
 
+Input:  new_added_Phone (new phone to be added to previous subsequence),
+        target_Seq (Target Sequence/ Keyword),
+        last_column_ED (Edit distance column of previous subsequence),
+        IDS_prob (insert, delete, substitution probabilities)
+
+Output: dp (edit distance column corresponding to new subsequence)
+
+'''
 
 def edit_distance_v2(new_added_Phone, target_Seq, last_column_ED, IDS_Prob):
 
@@ -53,12 +70,13 @@ def edit_distance_v2(new_added_Phone, target_Seq, last_column_ED, IDS_Prob):
     if it is the first time the edit distance is calculated then the last_column_ED
     will be an array of zeroes which is passed at the calling point
     '''
+
     insert_prob, delete_prob, substitute_prob = IDS_Prob[0], IDS_Prob[1], IDS_Prob[2]
 
     insert_prob = np.array(logarithm_mat(insert_prob))
-    # print(insert_prob.shape)
+    
     delete_prob = np.array(logarithm_mat(delete_prob))
-    # print(delete_prob.shape)
+    
     substitute_prob = np.array(logarithm_mat(substitute_prob))
 
 
@@ -68,8 +86,6 @@ def edit_distance_v2(new_added_Phone, target_Seq, last_column_ED, IDS_Prob):
 
     for i in range(n+1):
         if i == 0:
-            # print("ED v2:" + str(delete_prob[new_added_Phone]))
-            # dp[i] = prob_func(last_column_ED[i], insert_prob[new_added_Phone])
             dp[i] = last_column_ED[i] + insert_prob[new_added_Phone]
 
         elif new_added_Phone == target_Seq[i-1]:
@@ -82,9 +98,5 @@ def edit_distance_v2(new_added_Phone, target_Seq, last_column_ED, IDS_Prob):
             dp[i] = max(last_column_ED[i] + delete,
                         dp[i-1] + insert,
                         last_column_ED[i-1] + substitute)
-
-            # dp[i] = max(prob_func(last_column_ED[i], delete),
-            #             prob_func(dp[i-1], insert),
-            #             prob_func(last_column_ED[i-1], substitute))
 
     return dp

@@ -1,8 +1,0 @@
-Keyword: Suit
-#TP: 132
-#FP: 132
-      True Positive  False Positive
-min          -38.70          -39.01
-max           -0.11           -0.00
-mean         -23.80          -25.05
-std            5.80            7.94

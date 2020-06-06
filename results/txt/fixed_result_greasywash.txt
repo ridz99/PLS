@@ -1,5 +1,0 @@
-[5.245208740234375e-06]Start of the scanning for keyword: darksuit
-[5.936622619628906e-05]Starting the testing for the fixed keyword matching for:
-hspike: 0.1 hnode: 5e-08
-PLS keyword: 2
-Checking for True Positive and False Negative among 168 sentences where the keyword is present in each sentence:

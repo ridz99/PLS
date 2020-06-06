@@ -1,273 +1,36 @@
-from utils import *
-from edit_distance import *
+# DONE
+
+from PLS.utils import *
+from PLS.edit_distance import *
 import math
 import time
 
-# def phone_lattice_scanning(phone_lattice, lstm_prob, keyword, blank_id=40):
-#     time_stamps = phone_lattice.shape[1]
-
-#     # recorded sequences are the complete sequences along with probabilities, edit distance from the keyword, their normalised cost and next phone
-#     recorded_sequences = make_seq_arr()
-#     recorded_deletion = []
-
-#     beam = [(tuple(), (NEG_INF, INF, INF, 0.0))]
-
-#     # ps = first phone
-#     ps = keyword[0]
-
-#     '''
-#     NOTE:
-#     We will consider a candidate sequence c complete if we have encountered all the possible phones in the keyword and the most probable
-#     next phone is BLANK phone (=40 here). A candidate sequence is incomplete unless it has not encountered all the possible phones of the
-#     keyword and an incomplete sequence has to be deleted if at the coming time stamp, we neither have same phone nor the next possible phone (pc)
-#     and the BLANK phone is the only available phone with us to not to break the sequnece,
-#     because we want substring and not subsequence (i.e. the derived phone sequence should be contiguous wrt time and that too with no possible blank phones)
-#     '''
-
-#     for t in range(time_stamps):
-#         incomplete_sequences = make_seq_arr()
-#         print(len(beam))
-#         for prefix, (tot_prob, ed, cost, pc) in beam:
-#             for n in phone_lattice[:,t]:
-
-#                 phone_prob = lstm_prob[n,t]
-#                 last_phone = prefix[-1] if prefix else None
-#                 if n == last_phone or n == blank_id:
-#                     n_prefix = prefix if prefix else (n,)
-#                     n_tot_prob = prob_func(tot_prob, phone_prob)
-#                     incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, pc)
-
-#                 elif n == keyword[pc]:
-#                     n_prefix = prefix + (n,)
-#                     n_tot_prob = prob_func(tot_prob, phone_prob)
-#                     n_pc = pc + 1
-
-#                     if n_pc == len(keyword):
-#                         recorded_sequences[n_prefix] = (n_tot_prob, ed, cost, -1)
-#                     else:
-#                         incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, n_pc)
-
-#                 # adding new sequence for each instance of ps in the lattice, where ps is the first phone of the keyword
-#                 if pc != 0 and n == ps:
-#                     n_prefix = (n,)
-#                     n_tot_prob = phone_prob
-#                     # apart from the first phone, all other phones in keyword have to be added
-#                     n_edit_dist = len(keyword) - 1
-#                     n_cost = cost_func(n_tot_prob, n_edit_dist)
-#                     n_pc = 1
-#                     incomplete_sequences[n_prefix] = (n_tot_prob, n_edit_dist, n_cost, n_pc)
-
-
-#         if bool(incomplete_sequences.items()):
-#             beam = incomplete_sequences.items()
-#         else:
-#             beam = [(tuple(),(NEG_INF, INF, INF, 0))]
-
-#     return recorded_sequences, incomplete_sequences
-
-
-def phone_lattice_scanning_variable(phone_lattice, lstm_prob, keyword, blank_id=40):
-    '''
-    This function is for the variable nodes in the lattice and not fixed.
-    We will implement this using the pandas library
-    '''
-
-    time_stamps = phone_lattice.shape[1]
-
-    recorded_sequences = make_seq_arr()
-
-    beam = [(tuple(), (NEG_INF, INF, INF, 0))]
-
-    ps = keyword[0]
-
-    for t in range(time_stamps):
-        incomplete_sequences = make_seq_arr()
-        for prefix, (tot_prob, ed, cost, pc) in beam:
-            for n in phone_lattice[:,t]:
-
-                if np.isnan(n):
-                    continue
-                n = int(n)
-                phone_prob = lstm_prob[n,t]
-
-                last_phone = prefix[-1] if prefix else None
-                if n == last_phone or n == blank_id:
-                    n_prefix = prefix if prefix else (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-                    incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, pc)
-
-                elif n == keyword[pc]:
-                    n_prefix = prefix + (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-                    n_pc = pc + 1
-
-                    if n_pc == len(keyword):
-                        recorded_sequences[n_prefix] = (n_tot_prob, ed, cost, -1)
-                    else:
-                        incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, n_pc)
-
-                if pc != 0 and n == ps:
-                    n_prefix = (n,)
-                    n_tot_prob = phone_prob
-                    n_edit_dist = len(keyword) - 1
-                    n_cost = cost_func(n_tot_prob, n_edit_dist)
-                    n_pc = 1
-                    incomplete_sequences[n_prefix] = (n_tot_prob, n_edit_dist, n_cost, n_pc)
-
-        if bool(incomplete_sequences.items()):
-            beam = incomplete_sequences.items()#, key= lambda x:prob_func(*x[1]), reverse=True)
-        else:
-            beam = [(tuple(),(NEG_INF, INF, INF, 0))]
-
-    return recorded_sequences, incomplete_sequences
-
-
-def pls_v3(phone_lattice, lstm_prob, keyword, ids_prob, blank_id=40):
-    '''
-    This function is for finding the sequence along with implementing the insertion, deletion and subsitutuion probabilities
-    '''
-
-    insert_prob, delete_prob, substitute_prob = pickle.load(ids_pickle)
-    # insert_prob = ids_prob[0]
-    # delete_prob = ids_prob[1]
-    # substitute_prob = ids_prob[2]
-
-    time_stamps = phone_lattice.shape[1]
-
-    # print(time_stamps)
-
-    recorded_sequences = make_seq_arr()
-    incorrect_sequences = make_seq_arr()
-
-    beam = [(tuple(), (NEG_INF, INF, INF, 0))]
-
-    ps = keyword[0]
-
-    for t in range(time_stamps):
-        incomplete_sequences = make_seq_arr()
-        for prefix, (tot_prob, ed, cost, pc) in beam:
-            for n in phone_lattice[:,t]:
-                # print(n, end=" ")
-                if np.isnan(n):
-                    continue
-
-                n = int(n)
-                phone_prob = lstm_prob[n,t]
-                # print(phone_prob)
-                last_phone = prefix[-1] if prefix else None
-
-                if n == last_phone or n == blank_id:
-                    n_prefix = prefix if prefix else (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-                    incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, pc)
-
-                elif n == keyword[pc]:
-                    n_prefix = prefix + (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-                    n_pc = pc + 1
-
-                    if n_pc == len(keyword):
-                        recorded_sequences[n_prefix] = (n_tot_prob, ed, cost, -1)
-                    else:
-                        incomplete_sequences[n_prefix] = (n_tot_prob, ed, cost, n_pc)
-
-                else:
-                    n_prefix = prefix + (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-
-
-                if pc != 0 and n == ps:
-                    n_prefix = (n,)
-                    n_tot_prob = phone_prob
-                    n_edit_dist = len(keyword) - 1
-                    n_cost = cost_func(n_tot_prob, n_edit_dist)
-                    n_pc = 1
-                    incomplete_sequences[n_prefix] = (n_tot_prob, n_edit_dist, n_cost, n_pc)
-
-        if bool(incomplete_sequences.items()):
-            beam = incomplete_sequences.items()#, key= lambda x:prob_func(*x[1]), reverse=True)
-        else:
-            beam = [(tuple(),(NEG_INF, INF, INF, 0))]
-        # print(t, len(beam), len(recorded_sequences.items()))
-        # print(incomplete_sequences.items())
-
-    return recorded_sequences, beam
-
-def dynamic_pls_v4(lstm_prob, phone_lattice, time_frames, keyword, blank_id, ids_prob, arg):
-
-    # print("Following results are rom pls_v4:")
-
-    time_steps = len(time_frames)
-
-    # recorded_sequences = make_seq_arr()
-
-    beam = [(tuple(), (NEG_INF, INF, INF, 0.0))]
-
-    for t in range(time_steps):
-
-        # print("---------- " + str(t) + " ----------")
-
-        incomplete_sequences = make_seq_arr()
-
-        for prefix, (tot_prob, ed, cost, pc) in beam:
-
-            # print("Prefix: " + str(prefix))
-
-            for n in phone_lattice[:, t]:
-
-                if np.isnan(n):
-                    continue
-
-                n = int(n)
-
-                phone_prob = lstm_prob[n,t]
-
-                last_phone = prefix[-1] if prefix else None
-
-                if n == last_phone or n == blank_id:
-                    if prefix:
-                        # n_prefix = prefix
-                        n_prob = prob_func(prob, phone_prob)
-                        incomplete_sequences[prefix] = (n_prob, ed, cost, dp)
-
-                elif n != 39:
-                    n_prefix = prefix + (n,)
-                    n_tot_prob = prob_func(tot_prob, phone_prob)
-
-                    n_ed = edit_distance(ids_prob, n_prefix, keyword)
-                    # print("Adding new phone: " + str(n_prefix) + " ED:" + str(n_ed))
-                    n_cost = cost_func(n_tot_prob, n_ed, arg)
-                    incomplete_sequences[n_prefix] = (n_tot_prob, n_ed, n_cost, pc)
-
-                if n != 39 and n != blank_id:
-                    n_prefix = (n,)
-                    n_tot_prob = phone_prob
-                    # print("Initializing: " + str(n_prefix))
-                    n_edit_dist = edit_distance(ids_prob, n_prefix, keyword)
-                    n_cost = cost_func(n_tot_prob, n_edit_dist, arg)
-                    n_pc = 1
-                    incomplete_sequences[n_prefix] = (n_tot_prob, n_edit_dist, n_cost, n_pc)
-
-        if bool(incomplete_sequences.items()):
-            beam = sorted(incomplete_sequences.items(),key=lambda a:a[1][2])[:30]
-        else:
-            beam = [(tuple(),(NEG_INF, INF, INF, 0))]
-        # print(t, len(beam), len(recorded_sequences.items()))
-        # print(incomplete_sequences.items())
-
-    return incomplete_sequences
-
 
 '''
-Parameters:
-lstm_log_Prob: LSTM Log probabilities
-final_Lattice: final Phone lattice
-Keyword: Target sequence
-Time_Frames: the retained time frames in the final lattice
-IDS_prob: insert, delete and substitute probabilities
-Arg: argument to choose cost function (int type)
-Smax: threshold below which the sequence will be noted
-V: parameter for pruning
+Modified Dynamic PLS method takes into account the insertion, deletion and substitution
+probabilities obtained during the training model. These probabilities are incorporated
+into the dynamic programming algorithm in terms of edit distance and later the cummulative
+calculation of the occurence probability of the sequence detected and its edit distance
+from the keyword are taken into consideration for determining the most probable detection.
+
+Input:  lstm_log_Prob (LSTM Log probabilities)
+        final_Lattice (Phone lattice generated)
+        Keyword (Target sequence)
+        Time_Frames (the retained time frames in the phone lattice)
+        IDS_prob (insert, delete and substitute probabilities)
+        Arg (argument to choose cost function from the list mentioned in utils.py)
+        V (parameter for pruning)
+
+Output: recorded_sequences (list of all detected sequences)
+
+NOTE:   lstm_log_Prob: (nxT)
+        final_lattice: preformed
+        Keyword: 1D list
+        Time_Frames: preformed
+        IDS_prob: preformed (list[0] contains insertion, list[1] contains deletion, list[2] is a matrix of substitution probabilities)
+        Arg: int
+        V: int
+        recorded_sequences: list of tuples with key being the keyword detected, and the value of each key is a list of occurence probability, eit distance, cost, start, end time frame
 '''
 
 def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS_prob, Arg, V):
@@ -277,8 +40,6 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
     blank_id = 40
 
     min_len, max_len = compute_len_Range(Keyword, IDS_prob, 2)
-    # print(min_len, max_len)
-    # time.sleep(10)
 
     time_steps = len(Time_Frames)
 
@@ -300,7 +61,6 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
 
     for t in range(time_steps):
 
-        print("---------- " + str(t) + " ----------")
         incomplete_sequences = make_seq_arr(N)
 
         for n in final_Lattice[:, t]:
@@ -311,8 +71,6 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
             n = int(n)
 
             for prefix, (prob, cost, tf, dp) in beam:
-
-                # print("Prefix: " + str(prefix))
 
                 phone_prob = lstm_log_Prob[n,t]
 
@@ -327,17 +85,9 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
                     n_prefix = prefix + (n,)
                     n_prob = prob_func(prob, phone_prob)
                     n_len = len(n_prefix)
-                    # if n_len >= min_len and n <= max_len:
-                        # print("Comparing the prefix for ED: " + str(n_prefix))
                     n_dp = edit_distance_v2(n, Keyword, dp, IDS_prob)
-                    # else:
-                        # n_dp = dp
                     n_ed = n_dp[N]
-                    # if n_len >= min_len:
                     n_cost = cost_func(n_prob, n_ed, Arg)
-                    # else:
-                        # n_cost = cost
-                    print("Adding new phone: " + str(n_prefix) + "     ED:" + str(n_ed))
 
                     if n_len >= min_len and n_len <= max_len: # and n_cost < Smax
                         recorded_sequences[n_prefix] = (n_prob, n_ed, n_cost, tf, Time_Frames[t])
@@ -352,28 +102,38 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
                 n_ed = n_dp[N]
                 n_cost = cost_func(n_prob, n_ed, Arg)
                 incomplete_sequences[n_prefix] = (n_prob, n_cost, Time_Frames[t], n_dp)
-                print("Initializing: " + str(n_prefix))
 
         if bool(incomplete_sequences.items()):
             beam = sorted(incomplete_sequences.items(), key=lambda a:a[1][0])[:V]
-            print("Beam Length for next iteration: " + str(len(beam)))
         else:
             beam = [(tuple(),(NEG_INF, INF, 0, np.zeros(N)))]
 
     return recorded_sequences
 
+'''
+This method is the exact match phone lattice scanning method for single pronunciation.
+The exact phone sequence of the keyword will be traced in the phone lattice formed.
 
-# Below all are fixed scanning methods
+Input:  phone_lattice (phone lattice generated)
+        time_frame (retained time frames out of all the time frames considered in the LSTM model)
+        lstm_prob (LSTM log probabilities)
+        keyword (Target phone sequence)
 
+Output: recorded_sequences (list of all detected sequences)
+
+NOTE:   phone_lattice: preformed
+        time_frame: preformed
+        lstm_prob: nxT
+        keyword: 1D list of phone sequence
+        recorded_sequences: list of tuples where the key represents the matched/detected sequence and its value consists of list of occurence probability, start time frame and pc value (this value is for algorithm and not for practical purpose)
+
+'''
 
 def Fixed_PLS_single_pronunciation(phone_lattice, time_frame, lstm_prob, keyword, blank_id=40):
 
     time_stamps = phone_lattice.shape[1]
 
-    # print(time_stamps)
-
     recorded_sequences = make_seq_arr_fixed()
-    # recorded_deletion = []
 
     beam = [(tuple(), (NEG_INF, -1, 0))]
 
@@ -417,6 +177,22 @@ def Fixed_PLS_single_pronunciation(phone_lattice, time_frame, lstm_prob, keyword
             beam = [(tuple(),(NEG_INF, -1, 0))]
 
     return recorded_sequences#, incomplete_sequences
+
+'''
+This method focuses on exact match among various pronunciations of a single keyword.
+If either of the pronunciation matches exactly with the detected sequence then it is 
+considered as a hit for that corresponding keyword.
+
+Input:  phone_lattice (phone lattice formed)
+        time_frame (time frames retained after phone lattice formation)
+        lstm_prob (LSTM log probabilities)
+        keywords (target phone sequences) 
+
+Output: recorded_sequences (list of all possible detected sequences)
+
+NOTE: all the data type of the variables are same as discussed in previous methods.
+
+'''
 
 
 def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keywords):
@@ -507,10 +283,15 @@ def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keyword
         else:
             beam = [(tuple(), (NEG_INF, -1, [0]*num_keyword))]
 
-    return recorded_sequences, incomplete_sequences
+    return recorded_sequences#, incomplete_sequences
 
 
-# following function is used to calculate the max and min phone probabilities in the sequence detected
+'''
+All the input and output variables of this method holds the same reference as they earlier 
+did for the prior method. Just in this function, we calculate one more factor of the 
+sequence i.e. the maximun and minimum phone probability among the detected sequence.
+This was one of the observation function made for short keywords poor performance.
+'''
 
 def Fixed_PLS_multi_pronunciations_max_min(phone_lattice, time_frame, lstm_prob, keywords):
 
@@ -609,4 +390,4 @@ def Fixed_PLS_multi_pronunciations_max_min(phone_lattice, time_frame, lstm_prob,
         else:
             beam = [(tuple(), (NEG_INF, -1, [0]*num_keyword, NEG_INF, 0))]
 
-    return recorded_sequences, incomplete_sequences
+    return recorded_sequences#, incomplete_sequences

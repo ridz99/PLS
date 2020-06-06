@@ -1,3 +1,8 @@
+# NOT DONE
+
+# try to cnvert this script into function
+
+
 '''
 This script is used to find the specific phone sequence of a word as noted in the TIMIT
 dataset.
@@ -43,7 +48,7 @@ key_words = f.read()
 x = key_words.split("\n")
 
 
-with open('folding_2.json') as f:
+with open('folding.json') as f:
     folding = json.load(f)
 
 fold_key = []

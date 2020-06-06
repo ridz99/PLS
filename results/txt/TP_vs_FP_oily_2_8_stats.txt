@@ -1,8 +1,0 @@
-Keyword: Oily
-#TP: 149
-#FP: 99
-      True Positive  False Positive
-min          -39.81          -40.69
-max           -6.77           -0.01
-mean         -27.17          -29.93
-std            7.82            6.92

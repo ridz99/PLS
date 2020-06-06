@@ -1,7 +1,11 @@
-'''
-This script is used to calculate the total time for the test dataset to find FA
-'''
+# Yet to be modified
 
+# Try to convert this script into function to use
+
+'''
+The purpose of this script is to calculate the total speech time of the TIMIT TEST dataset.
+This data is useful to calculate the FA.
+'''
 
 import os
 

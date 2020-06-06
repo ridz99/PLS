@@ -1,3 +1,5 @@
+# DONE
+
 import sys
 import numpy as np
 import math
@@ -6,11 +8,16 @@ from collections import defaultdict, Counter
 
 NEG_INF = -float('inf')
 INF = sys.maxsize
+logarithm_mat = np.log
+
+
+'''
+Binary search function used in process lattice Level 2.
+'''
 
 def binary_search(arr, prob, x):
     l = 0
     r = arr.shape[0]-1
-    # print(r)
     while(l<r):
         mid = l + (r-l) // 2;
 
@@ -24,6 +31,10 @@ def binary_search(arr, prob, x):
             r = mid - 1
     return l
 
+'''
+Function to print lattice in a particular format to increase readability.
+'''
+
 def print_lattice(matrix):
     s = [[str(e) for e in row] for row in matrix]
     lens = [max(map(len, col)) for col in zip(*s)]
@@ -31,8 +42,10 @@ def print_lattice(matrix):
     table = [fmt.format(*row) for row in s]
     print('\n'.join(table))
 
+
 def cmp(a, b):
     return (a==b)
+
 
 def reverse_sublist(lst):
     N = len(lst)
@@ -40,9 +53,11 @@ def reverse_sublist(lst):
         lst[n] = lst[n][::-1]
     return lst
 
+
 def make_new_beam():
     fn = lambda : (NEG_INF, NEG_INF)
     return collections.defaultdict(fn)
+
 
 def logsumexp(*args):
     if all(a == NEG_INF for a in args[0]):
@@ -52,9 +67,6 @@ def logsumexp(*args):
     return a_max + lsp
 
 def logsumexp_v2(*args):
-    # print(args)
-    #a_max = max(args[0])
-    # print(len(args[0]))
     sum_t = 0
     for i in range(len(args)):
         if args[i] != NEG_INF:
@@ -65,8 +77,11 @@ def logsumexp_v2(*args):
     else:
         lsp = NEG_INF
 
-    # lsp = math.log(sum(math.exp(a) for a in args[0]))
     return lsp
+
+'''
+This is the cost function. There are few options that were tried for dynamic PLS.
+'''
 
 def cost_func(prob, ed, arg):
     if arg == 0:
@@ -88,21 +103,18 @@ def cost_func(prob, ed, arg):
     else:
         return 400*ed
 
+'''
+This function adds log probabilities
+'''
+
 def prob_func(*args):
 
-    # ans = 0
-    # for a in args:
-    #     ans += a
-    # return ans
     if all(a == NEG_INF for a in args):
         return NEG_INF
     a_max = max(args)
     lsp = math.log(sum(math.exp(a-a_max) for a in args))
     return a_max + lsp
 
-def make_new_beam_v2():
-    fn : lambda : (NEG_INF, NEG_INF, INF)
-    return collections.defaultdict(fn)
 
 def make_seq_arr(N):
     # probability, edit distance wrt keyword, cost, DP
@@ -113,24 +125,6 @@ def make_record_seq():
     # prob, ed, cost, start time frame, end time frame
     fn = lambda : (NEG_INF, INF, INF, 0, 0)
     return collections.defaultdict(fn)
-
-'''Useless function'''
-def search_for_phone(time_lattice, last_phone, next_phone, blank_phone, first_phone):
-    ans = [False, False, False, False]
-
-    for n in time_lattice:
-        if n == last_phone:
-            ans[0] = True
-        elif n == next_phone:
-            ans[1] = True
-        elif n == blank_phone:
-            ans[2] = True
-        elif n == first_phone:
-            ans[3] = True
-
-    return ans
-
-logarithm_mat = np.log
 
 
 def make_seq_arr_fixed():
@@ -157,3 +151,19 @@ def compute_len_Range(str, ids_prob, top_k):
 
     end = N + top_k
     return start, end
+
+def softmax(lstm_output):
+    S, T = lstm_output.shape
+    lstm_log_prob = []
+
+    for t in range(T):
+        temp = []
+        deno = logsumexp_v2(lstm_output[:,t])
+
+        for n in range(S):
+            temp.append(lstm_output[n,t] - deno)
+        lstm_log_prob.append(temp)
+
+    lstm_log_prob = np.array(lstm_log_prob)
+
+    return lstm_log_prob.T

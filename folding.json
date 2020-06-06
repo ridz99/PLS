@@ -1,0 +1,14 @@
+{
+  "aa": ["ao"],
+  "ah": ["ax", "ax-h"],
+  "er": ["axr"],
+  "hh": ["hv"],
+  "ih": ["ix"],
+  "l": ["el"],
+  "m": ["em"],
+  "n": ["en", "nx"],
+  "ng": ["eng"],
+  "sh": ["zh"],
+  "pau": ["pcl", "tcl", "kcl", "bcl", "dcl", "gcl", "h#", "epi", "q"],
+  "uw": ["ux"]
+}
