@@ -5,6 +5,7 @@ import numpy as np
 import math
 import collections
 from collections import defaultdict, Counter
+import json
 
 NEG_INF = -float('inf')
 INF = sys.maxsize
@@ -167,3 +168,16 @@ def softmax(lstm_output):
     lstm_log_prob = np.array(lstm_log_prob)
 
     return lstm_log_prob.T
+
+
+def search_phone(phones):
+
+    with open('PLS/phone_mapping.json') as f:
+        phone_id = json.load(f)
+
+    phones_ID_list = []
+
+    for i in range(len(phones)):
+        phones_ID_list.append(phone_id[phones[i]][0])
+
+    return phones_ID_list
