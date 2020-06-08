@@ -119,7 +119,7 @@ def test_one_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, C
 	elif PLS_Arg == 2:
 		recorded_seq = Fixed_PLS_multi_pronunciation(final_lattice, time_frame, log_prob, keyword)
 	else:
-		recorded_seq = Modified_Dynamic_PLS(LSTM_prob, final_lattice, keyword[0], time_frame, IDS_prob, Cost_Arg, V)
+		recorded_seq = Modified_Dynamic_PLS(log_prob, final_lattice, keyword[0], time_frame, IDS_prob, Cost_Arg, V)
 
 
 	ans = sorted(recorded_seq.items(), key = lambda a: a[1][0], reverse=True)
