@@ -35,7 +35,7 @@ NOTE:   lstm_log_Prob: (nxT)
 
 def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS_prob, Arg, V):
 
-    final_Lattice = final_Lattice.values
+    # final_Lattice = final_Lattice.values
 
     blank_id = 40
 
