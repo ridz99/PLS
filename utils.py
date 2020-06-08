@@ -69,9 +69,9 @@ def logsumexp(*args):
 
 def logsumexp_v2(*args):
     sum_t = 0
-    for i in range(len(args)):
-        if args[i] != NEG_INF:
-            sum_t += math.exp(args[i])
+    for i in range(len(args[0])):
+        if args[0][i] != NEG_INF:
+            sum_t += math.exp(args[0][i])
 
     if sum_t != 0:
         lsp = math.log(sum_t)
@@ -178,6 +178,6 @@ def search_phone(phones):
     phones_ID_list = []
 
     for i in range(len(phones)):
-        phones_ID_list.append(phone_id[phones[i]][0])
+        phones_ID_list.append(int(phone_id[phones[i]][0]))
 
     return phones_ID_list
