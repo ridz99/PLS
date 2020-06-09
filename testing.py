@@ -117,7 +117,7 @@ def test_one_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, C
     if PLS_Arg == 1:
         recorded_seq = Fixed_PLS_single_pronunciation(final_lattice, time_frame, log_prob, keyword[0])
     elif PLS_Arg == 2:
-        recorded_seq = Fixed_PLS_multi_pronunciation(final_lattice, time_frame, log_prob, keyword)
+        recorded_seq = Fixed_PLS_multi_pronunciations(final_lattice, time_frame, log_prob, keyword)
     elif PLS_Arg == 3:
         recorded_seq = Modified_Dynamic_PLS(log_prob, final_lattice, keyword[0], time_frame, IDS_prob, Cost_Arg, V)
     else:
