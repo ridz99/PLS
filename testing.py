@@ -96,50 +96,51 @@ Output:	list of all possible matches along with start and end time frame, and ot
 
 def test_one_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V, variable):
 
-	LSTM_output = LSTM_output.T
+    LSTM_output = LSTM_output.T
 
-	if any(a<0 for a in LSTM_output[0]):
-		log_prob = softmax(LSTM_output)
-	else:
-		log_prob = np.log(LSTM_output)
+    if any(a<0 for a in LSTM_output[0]):
+    	log_prob = softmax(LSTM_output)
+    else:
+    	log_prob = np.log(LSTM_output)
 
-	phone_lattice_raw, time_frame = process_lattice_hspike(log_prob, hspike)
+    phone_lattice_raw, time_frame = process_lattice_hspike(log_prob, hspike)
 
-	final_lattice = process_lattice_L2_hnode(phone_lattice_raw, variable, hnode)
+    final_lattice = process_lattice_L2_hnode(phone_lattice_raw, variable, hnode)
 
-	if variable:
-		final_lattice, time_frame = process_lattice_L3_variable(final_lattice, time_frame, log_prob)
-	else:
-		final_lattice, time_frame = process_lattice_L3(final_lattice, time_frame)
+    if variable:
+    	final_lattice, time_frame = process_lattice_L3_variable(final_lattice, time_frame, log_prob)
+    else:
+    	final_lattice, time_frame = process_lattice_L3(final_lattice, time_frame)
 
-	num_hits = 0
+    num_hits = 0
 
-	if PLS_Arg == 1:
-		recorded_seq = Fixed_PLS_single_pronunciation(final_lattice, time_frame, log_prob, keyword[0])
-	elif PLS_Arg == 2:
-		recorded_seq = Fixed_PLS_multi_pronunciation(final_lattice, time_frame, log_prob, keyword)
-	else:
-		recorded_seq = Modified_Dynamic_PLS(log_prob, final_lattice, keyword[0], time_frame, IDS_prob, Cost_Arg, V)
+    if PLS_Arg == 1:
+        recorded_seq = Fixed_PLS_single_pronunciation(final_lattice, time_frame, log_prob, keyword[0])
+    elif PLS_Arg == 2:
+        recorded_seq = Fixed_PLS_multi_pronunciation(final_lattice, time_frame, log_prob, keyword)
+    elif PLS_Arg == 3:
+        recorded_seq = Modified_Dynamic_PLS(log_prob, final_lattice, keyword[0], time_frame, IDS_prob, Cost_Arg, V)
+    else:
+        recorded_seq = DMPLS(log_prob, final_lattice, keyword[0], time_frame, Cost_Arg, V, 2)
 
-
-	ans = sorted(recorded_seq.items(), key = lambda a: a[1][0], reverse=True)
+    ans = sorted(recorded_seq.items(), key = lambda a: a[1][0], reverse=True)
 	
-	if bool(recorded_seq):
-		num_hits += 1
+    if bool(recorded_seq):
+    	num_hits += 1
 
-	return ans
+    return ans
 
 
-def test_multiple_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V):
+def test_multiple_utterance(LSTM_output, IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V, variable):
 
-	n_test = len(LSTM_output)
+    n_test = len(LSTM_output)
+    
+    answers = []
 
-	answers = []
+    for i in range(n_test):
+        ans = test_one_utterance(LSTM_output[i][0], IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V, variable)
+        answers.append((ans, i))
+        if i%25 == 0:
+            print("Done #" + str(i))
 
-	for i in range(n_test):
-
-		ans = test_one_utterance(LSTM_output[i], IDS_prob, keyword, hspike, hnode, PLS_Arg, Cost_Arg, V)
-
-		answers.append(ans)
-
-	return answers
+    return answers
