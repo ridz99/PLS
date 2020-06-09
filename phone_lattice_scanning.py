@@ -155,14 +155,19 @@ def Fixed_PLS_single_pronunciation(phone_lattice, time_frame, lstm_prob, keyword
                     incomplete_sequences[prefix] = (tot_prob, tf, pc)
 
                 elif n == keyword[pc]:
+                    if prefix:
+                        n_tf = tf
+                    else:
+                        n_tf = time_frame[t]
+                    
                     n_prefix = prefix + (n,)
                     n_tot_prob = prob_func(tot_prob, phone_prob)
                     n_pc = pc + 1
 
                     if n_pc == len(keyword):
-                        recorded_sequences[n_prefix] = (n_tot_prob, tf, -1)
+                        recorded_sequences[n_prefix] = (n_tot_prob, n_tf, -1)
                     else:
-                        incomplete_sequences[n_prefix] = (n_tot_prob, tf, n_pc)
+                        incomplete_sequences[n_prefix] = (n_tot_prob, n_tf, n_pc)
 
                 if pc != 0 and n == ps:
                     n_prefix = (n,)
@@ -241,6 +246,11 @@ def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keyword
                     incomplete_sequences[prefix] = (prob, tf, pc)
 
                 elif pc_existence.any():
+                    if prefix:
+                        n_tf = tf
+                    else:
+                        n_tf = time_frame[t]
+                    
                     n_prefix = prefix + (n,)
                     n_prob = prob_func(phone_prob, prob)
 
@@ -258,10 +268,10 @@ def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keyword
                         finish_seq[i] = (len_keywords[i] == n_pc[i])
 
                     if finish_seq.any():
-                        recorded_sequences[n_prefix] = (n_prob, tf, n_pc)
+                        recorded_sequences[n_prefix] = (n_prob, n_tf, n_pc)
                         
                     else:
-                        incomplete_sequences[n_prefix] = (n_prob, tf, n_pc)
+                        incomplete_sequences[n_prefix] = (n_prob, n_tf, n_pc)
 
                 find_truth = (np.array(ps) == n)
                 if (np.array(pc) != 0).any() and find_truth.any():
