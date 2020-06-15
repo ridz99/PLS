@@ -68,4 +68,12 @@ number mapping, use search_phone() function from utils.py file.
 
 - A demo file main.py is provided for reference. Place this main.py file outside the PLS folder and run the script.
 
+- An extra file for testing is provided. keywords.txt and keywords.json consists of 80 keywords used in a research work. keywords.txt contains the list of these 80 keywords, and keywords.json consists the location and pronunciations of the corresponding keyword.
+The format explanation of the keywords.json is as follows:
+Key: String format keyword
+Values: List of the files where the keyword is noticed,
+        next is the list of the numbers which suggests whether the corresponding index file is present in TIMIT TEST dataset,
+        phone sequence of the corresponding keyword of the correct American English pronunciation,
+        phone to ID/number mapping of the correct pronunciation of phone sequence,
+        phone number sequence of the pronuciation as noticed in the TIMIT TEST dataset .PHN file
 
