@@ -1,5 +1,3 @@
-# DONE
-
 from PLS.utils import *
 from PLS.edit_distance import *
 import math
@@ -36,6 +34,12 @@ NOTE:   lstm_log_Prob: (nxT)
 def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS_prob, Arg, V):
 
     # final_Lattice = final_Lattice.values
+    
+    # following is the code for mapping the numbers to its respective phones
+    file_phone = open("PLS/phone_mapping.json", "r")
+    data_phone = json.load(file_phone)
+    ID_to_phone_list = list(data_phone.keys())
+    # end
 
     blank_id = 40
 
@@ -90,7 +94,8 @@ def Modified_Dynamic_PLS(lstm_log_Prob, final_Lattice, Keyword, Time_Frames, IDS
                     n_cost = cost_func(n_prob, n_ed, Arg)
 
                     if n_len >= min_len and n_len <= max_len: # and n_cost < Smax
-                        recorded_sequences[n_prefix] = (n_prob, n_ed, n_cost, tf, Time_Frames[t])
+                        n_prefix_phones = tuple([ID_to_phone_list[k] for k in n_prefix])
+                        recorded_sequences[n_prefix_phones] = (n_prob, n_ed, n_cost, tf, Time_Frames[t])
 
                     if n_len <= max_len:
                         incomplete_sequences[n_prefix] = (n_prob, n_cost, tf, n_dp)
@@ -131,6 +136,12 @@ NOTE:   phone_lattice: preformed
 
 def Fixed_PLS_single_pronunciation(phone_lattice, time_frame, lstm_prob, keyword, blank_id=40):
 
+    # following is the code for mapping the numbers to its respective phones
+    file_phone = open("PLS/phone_mapping.json", "r")
+    data_phone = json.load(file_phone)
+    ID_to_phone_list = list(data_phone.keys())
+    # end
+    
     time_stamps = phone_lattice.shape[1]
 
     recorded_sequences = make_seq_arr_fixed()
@@ -165,7 +176,8 @@ def Fixed_PLS_single_pronunciation(phone_lattice, time_frame, lstm_prob, keyword
                     n_pc = pc + 1
 
                     if n_pc == len(keyword):
-                        recorded_sequences[n_prefix] = (n_tot_prob, n_tf, -1)
+                        n_prefix_phones = tuple([ID_to_phone_list[k] for k in n_prefix])
+                        recorded_sequences[n_prefix_phones] = (n_tot_prob, n_tf, -1)
                     else:
                         incomplete_sequences[n_prefix] = (n_tot_prob, n_tf, n_pc)
 
@@ -202,6 +214,12 @@ NOTE: all the data type of the variables are same as discussed in previous metho
 
 def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keywords):
 
+    # following is the code for mapping the numbers to its respective phones
+    file_phone = open("PLS/phone_mapping.json", "r")
+    data_phone = json.load(file_phone)
+    ID_to_phone_list = list(data_phone.keys())
+    # end
+    
     blank_id = 40
 
     num_keyword = len(keywords)
@@ -268,8 +286,8 @@ def Fixed_PLS_multi_pronunciations(phone_lattice, time_frame, lstm_prob, keyword
                         finish_seq[i] = (len_keywords[i] == n_pc[i])
 
                     if finish_seq.any():
-                        recorded_sequences[n_prefix] = (n_prob, n_tf, n_pc)
-                        
+                        n_prefix_phones = tuple([ID_to_phone_list[k] for k in n_prefix])
+                        recorded_sequences[n_prefix_phones] = (n_prob, n_tf, n_pc)
                     else:
                         incomplete_sequences[n_prefix] = (n_prob, n_tf, n_pc)
 
@@ -305,6 +323,12 @@ This was one of the observation function made for short keywords poor performanc
 
 def Fixed_PLS_multi_pronunciations_max_min(phone_lattice, time_frame, lstm_prob, keywords):
 
+    # following is the code for mapping the numbers to its respective phones
+    file_phone = open("PLS/phone_mapping.json", "r")
+    data_phone = json.load(file_phone)
+    ID_to_phone_list = list(data_phone.keys())
+    # end
+    
     phone_lattice = phone_lattice.values
 
     blank_id = 40
@@ -372,8 +396,8 @@ def Fixed_PLS_multi_pronunciations_max_min(phone_lattice, time_frame, lstm_prob,
                         finish_seq[i] = (len_keywords[i] == n_pc[i])
 
                     if finish_seq.any():
-                        recorded_sequences[n_prefix] = (n_prob, tf, n_pc, n_max_p, n_min_p)
-                
+                        n_prefix_phones = tuple([ID_to_phone_list[k] for k in n_prefix])
+                        recorded_sequences[n_prefix_phones] = (n_prob, tf, n_pc, n_max_p, n_min_p)
                     else:
                         incomplete_sequences[n_prefix] = (n_prob, tf, n_pc, n_max_p, n_min_p)
 
